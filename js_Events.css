@@ -1,0 +1,33 @@
+/* 2 task */
+/* div {
+    height: 2000px;
+} */
+
+/* 4 task */
+body {
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.modalWindow {
+    margin: auto;
+    border: 0.5em solid rgb(221, 217, 161);
+    padding: 10%;
+    width: 30%;
+    height: 30%;
+    font: 2em sans-serif;
+    text-align: center;
+    background-color: rgb(92, 44, 88);
+    color: rgb(248, 248, 136);
+
+    display: none;
+
+}
+
+.modalWindowOpen {
+    display: block;
+    transition: 1s;
+    align-self: center;
+}
